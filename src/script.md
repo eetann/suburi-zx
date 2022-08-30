@@ -4,10 +4,10 @@
 // コードブロックの言語指定はjsにした
 echo`directory: ${__dirname}`
 echo`finename: ${__filename}`
-echo(chalk.bgGreenBright.black("Hey, Kerry!!!"))
 await $`ls`
 ```
 
+# 言語指定
 ```
 console.log('言語指定をしていないコードブロック')
 console.log('実行されないよ！')
@@ -15,9 +15,10 @@ console.log('実行されないよ！')
 
 ```bash
 # コードブロックの言語指定はbashにした
-git --no-pager branch -vv
+echo "bashbashbash"
 ```
 
+# 別のコードブロックの変数
 別のコードブロックの変数も使える。
 
 ```js
